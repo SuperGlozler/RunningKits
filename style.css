@@ -1,0 +1,18 @@
+/* CSS for Google Maps container */
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+/* Styling for other elements */
+h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}
