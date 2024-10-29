@@ -1,18 +1,39 @@
-/* CSS for Google Maps container */
-#map {
-    height: 500px;
-    width: 100%;
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-/* Styling for other elements */
-h2 {
-    text-align: center;
-    font-family: Arial, sans-serif;
+header {
+  background-color: #398FFF;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 
-button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    font-size: 16px;
+.home-tab a {
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.home-tab img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.navigation a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
 }
